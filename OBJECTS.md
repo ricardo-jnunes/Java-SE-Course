@@ -10,6 +10,7 @@
  
 #####StringBuilder
  - StringBuilder is mutable, they no create a new instance after modify String 
+ - Are not thread-safe
  - Instantiated by new word
  - Default capacity is 16 and it auto-expands as required
  - Used to manipulate amount of text
