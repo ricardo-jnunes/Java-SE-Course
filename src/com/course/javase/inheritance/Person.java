@@ -5,5 +5,6 @@ public class Person {
 	
 	void speak() {
 		com.course.javase.inheritance.Dog dog = new Dog();
+		dog.a = "Skip";
 	}
 }

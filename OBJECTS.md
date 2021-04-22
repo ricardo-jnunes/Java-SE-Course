@@ -1,7 +1,16 @@
 # Java-SE-Course
 
 ####Objects
+Java objects are instances of classes.
+The new operator creates an Objects (instance of Class), allocating memory to store this object.
 
+Assign "reference" to memory allocated for the object to be able to access it.
+
+ - Uninitialized primitives are defaulted to 0, and boolean to false
+ - Uninitialized object references are defaulted to null
+ - You can assign the same object reference to more than one variable, this does not duplicate the object
+ - Use the this keyword (recursive reference to current object) to refer to an instance, rather than Local variable, but it is not required, 
+ 
 #####Strings
  - String Class that represents char sequences
  - String someStrinv ="Hello"; is recommended, cause JVM optimize memory in String Pool memory (someString.intern())
@@ -63,5 +72,27 @@
  String hello = bundle.getString("hello");
  String message = MessageFormat(hello, "John") // hello= Hello {0}
  ```
+
+#####Local variable Type inference
+Java is strong typed language, not allowed do not have a type (String, int, etc)
+
+Introduces in Java 10 the typed inference, so no need explicitly declare local variable types
+ - Overuse can reduce readbility 
+
+ ```java
+public void someOp(int param){
+   var value1 = "Hello";
+   var value2 = param;
+}
+ ```
  
+#####Constants
+Data is assigned once and cannot be changed
+ - Declare final keyword
  
+#####Static Context
+Class memory context, know as static context
+
+Shared data between instances
+ - Use of static keyword
+ - Static initializer runs once and is the first thing to run when the class is loaded
