@@ -3,6 +3,8 @@
 ####Objects
 Java objects are instances of classes.
 The new operator creates an Objects (instance of Class), allocating memory to store this object.
+An object must be an instance of a specific class.
+
 
 Assign "reference" to memory allocated for the object to be able to access it.
 
@@ -10,6 +12,10 @@ Assign "reference" to memory allocated for the object to be able to access it.
  - Uninitialized object references are defaulted to null
  - You can assign the same object reference to more than one variable, this does not duplicate the object
  - Use the this keyword (recursive reference to current object) to refer to an instance, rather than Local variable, but it is not required, 
+
+What is an object reference?
+ - A typed variable that points to an object's location in memory
+
  
 #####Strings
  - String Class that represents char sequences
