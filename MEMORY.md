@@ -8,6 +8,7 @@ Extends generic behavior
  - Object is allocated on a heap
  - Primitives are stored on stack
  - Passing parameter, just like any local method variable, parameter are stored on a stack (variable is copied a references an object on heap)
+ - Each thread has its own stack
  - See imgs/memory.PNG
  
 ####Memory Cleanup

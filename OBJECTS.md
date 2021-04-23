@@ -102,3 +102,14 @@ Class memory context, know as static context
 Shared data between instances
  - Use of static keyword
  - Static initializer runs once and is the first thing to run when the class is loaded
+ 
+####Override Object Class Operations
+It is recommended that override some operations defined by the Object class.
+ - toString (which can be easily used in logging)
+ - equals
+    - == operator compare values in the stack
+    - equals compare object content
+    - String Class equals compares contents
+ - hashcode
+    - must generates int value for the same instance
+    - Can use Obejct.hash(id, price)

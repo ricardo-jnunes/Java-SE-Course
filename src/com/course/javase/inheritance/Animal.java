@@ -1,6 +1,8 @@
 package com.course.javase.inheritance;
 
-public class Animal {
+import com.course.javase.definitions.Organism;
+
+public class Animal extends Organism {
 
 	public String p = "init", q = "init";
 	protected String a;
@@ -13,4 +15,13 @@ public class Animal {
 	byte bity;
 	byte bity1 = -128;
 	//byte bity2 = 128;
+	
+	public void roar() {
+		System.out.println("roarr");
+	}
+
+	@Override
+	public void feel() {
+		// TODO Auto-generated method stub
+	}
 }
