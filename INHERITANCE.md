@@ -15,6 +15,9 @@ The Object class contains generic behaviours
  - super keyword to reference parent object
  - this keyword to reference same object
  
+  - The Object class is the ultimate parent of any other class in Java
+  - The Object class defines common, generic operations that all other Java classes inherit and reuse
+
 ####Initialization Summary
  - All code of class must be loaded into memory first
  -  It needs to be loaded only once per class
