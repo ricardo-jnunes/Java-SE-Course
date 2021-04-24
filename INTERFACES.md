@@ -18,6 +18,13 @@ It describes a set of features to implement
  - Accessing superclass operations or variables could be ambiguous, thats it multiple inheritance is forbidden
  - A class must override default interface method only if it conflict with another default method
 
+ - Interfaces can contain concrete methods, but only if they are private, static and default
+ - Both interface and class references can be cast to either type.
+ - A default method can be defined only in an interface.
+ - A class can implement as many interfaces as required.
+ - Interfaces help solve the multiple inheritance problem.
+
+ 
 
 #####Functional Interfaces
 Functional Interface is an interface that defines a single abstract operation (function)
