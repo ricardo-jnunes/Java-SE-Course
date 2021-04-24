@@ -4,7 +4,8 @@ import com.course.javase.inheritance.Robot;
 
 @FunctionalInterface
 public interface Robotable<T> {
-	
+	double pid = 0f;
+
 	//private void cafe();
 
 	T applyMetal(Robot robo);

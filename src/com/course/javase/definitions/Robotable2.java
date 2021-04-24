@@ -4,7 +4,8 @@ import com.course.javase.inheritance.Robot;
 
 @FunctionalInterface
 public interface Robotable2 {
-	
+
+
 	void applyMetal(Robot robo);
 
 }

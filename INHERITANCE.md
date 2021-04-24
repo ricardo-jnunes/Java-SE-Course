@@ -19,6 +19,10 @@ The Object class contains generic behaviours
   - The Object class is the ultimate parent of any other class in Java
   - The Object class defines common, generic operations that all other Java classes inherit and reuse
 
+A superclass method takes priority over an interface default method
+A subtype interfaces takes priority over an interface parent
+If there are conflict you need to implement
+
 ####Initialization Summary
  - All code of class must be loaded into memory first
  -  It needs to be loaded only once per class

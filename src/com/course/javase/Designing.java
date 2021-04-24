@@ -20,9 +20,9 @@ public class Designing {
 		System.out.println(organism.toString());
 		
 		if(person instanceof Organism)
-			System.out.println(true);
+			System.out.println("is Organism");
 		
 		if(person instanceof Robotable2)
-			System.out.println(true);
+			System.out.println("is Robotable2");
 	}
 }

@@ -69,5 +69,7 @@ public class LambdaStreams {
 		System.out.println(Arrays.asList("J", "A", "V", "A").stream().findAny().get()); // w
 
 		System.out.println(Arrays.asList("J", "A", "V", "A").parallelStream().findAny().get()); // not predictable
+	
+		//Consumer<String> con = final String x->System.out.println(x);
 	}
 }
