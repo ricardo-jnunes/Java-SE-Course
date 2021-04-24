@@ -1,5 +1,7 @@
 package com.course.javase.inheritance;
 
+import com.course.javase.definitions.Organism;
+
 public class Dog extends Animal {
 
 	@Override
@@ -8,8 +10,17 @@ public class Dog extends Animal {
 	}
 
 	void bark() {
-		Animal animal = new Animal();
-		// String a = animal.c;
 		System.out.println("au");
+	}
+
+	@Override
+	public Organism applyMetal(Robot robo) {
+		System.err.println("I am not cool with this yet");
+		return null;
+	}
+
+	@Override
+	public void feel() {
+		System.out.println("thihihi");
 	}
 }

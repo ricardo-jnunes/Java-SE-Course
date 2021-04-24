@@ -11,7 +11,7 @@ Assign "reference" to memory allocated for the object to be able to access it.
  - Uninitialized primitives are defaulted to 0, and boolean to false
  - Uninitialized object references are defaulted to null
  - You can assign the same object reference to more than one variable, this does not duplicate the object
- - Use the this keyword (recursive reference to current object) to refer to an instance, rather than Local variable, but it is not required, 
+ - Use the this keyword (recursive reference to current object) to refer to an instance, rather than Local variable, but it is not required
 
 What is an object reference?
  - A typed variable that points to an object's location in memory

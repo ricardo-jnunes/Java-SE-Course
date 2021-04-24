@@ -76,3 +76,8 @@ public class NotificationFactory {
     }
 }
  ```
+ 
+####Abstract X Interface
+A class can extend only one abstract class while a class can implement multiple interfaces.
+
+See more in INHERITANCE doc.
