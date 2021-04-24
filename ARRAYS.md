@@ -18,6 +18,8 @@
  - Dynamically expands as appropriate
  - Provide thread-safe operations
  - order elements and validations
+ - All collections do not provide thread-safe operations, you need to implement cause it was modified to improve performance
+
  
 ####Deque Class
 The Deque interface present in java.util package is a subtype of the queue interface. The Deque is related to the double-ended queue that supports addition or removal of elements from either end of the data structure.
@@ -28,7 +30,8 @@ The Deque interface present in java.util package is a subtype of the queue inter
  - offerFirst and offerLast - insert elements at head and tail
  - poolFirst and poolLast - get and remove elements at head and tail
  - peekFirst and peekLast get element at head and the tail of the deque
- 
+ - Null values are not allowed.
+
  
 ####ArrayList
  - Instances can be created using no-args, creating a list of initial capacity of 10 elements
@@ -49,6 +52,9 @@ A HashMap is an implementation of Map. A Map maps keys to values. The key look u
  - Load factor 0.75 and Auto-expand
  - Both HashSet and HashMap are not synchronized.
  - HashSet is implementation of Set Interface which does not allow duplicate value.
+
+Set
+ - Add and Remove methods will return false values when attempting to add a duplicate or remove an absent element.
 
 
 ####Predicate

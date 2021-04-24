@@ -81,3 +81,11 @@ public class NotificationFactory {
 A class can extend only one abstract class while a class can implement multiple interfaces.
 
 See more in INHERITANCE doc.
+
+####Member inner class associated
+Instance context of the containing class
+
+####Anonymous inner class
+ - It is an implementation of an interface or extension of a class.
+ - It can access outer variables, but only if they are final or effectively final.
+
